@@ -1,0 +1,11 @@
+#npm init -y
+#npm install -D playwright @types/node typescript ts-node dotenv axios form-data
+#npx playwright install
+
+
+#setting .env untuk testrail
+
+
+#running
+#npx playwright test tests/auth.setup.spec.ts
+#npx playwright test
