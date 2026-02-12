@@ -1,11 +1,31 @@
 import { Page, expect } from "@playwright/test";
+import path = require("path");
+
+async function safeFill(
+  page: Page,
+  selector: string,
+  value: string
+) {
+  await page.evaluate(
+    ({ selector, value }) => {
+      const input = document.querySelector<HTMLInputElement>(selector);
+      if (!input) throw new Error(`Element not found: ${selector}`);
+
+      input.removeAttribute('readonly');
+      input.value = value;
+      input.dispatchEvent(new Event('input', { bubbles: true }));
+      input.dispatchEvent(new Event('change', { bubbles: true }));
+    },
+    { selector, value }
+  );
+}
 
 //Button
 export async function button(page: Page, text: string | RegExp) {
   await page.locator("button", { hasText: text }).click();
 }
 
-export async function link(page: Page, text: string) {
+export async function linkByName(page: Page, text: string) {
   await page.getByRole("link", { name: text }).click();
 }
 
@@ -13,10 +33,45 @@ export async function buttonByOnclick(page: Page, action: string) {
   await page.locator(`button[onclick="${action}"]`).click();
 }
 
-//INPUT FUNCTIONS
-export async function input(page: Page, placeholder: string, value: string) {
-  await page.fill(`input[placeholder="${placeholder}"]`, value);
+export async function buttonById(page: Page, id: string) {
+  await page.click(`#${id}`);
+
 }
+
+//INPUT FUNCTIONS
+export async function inputByPlaceholder(page: Page, placeholder: string, value: string) {
+  await safeFill(page, `input[placeholder="${placeholder}"]`, value);
+}
+
+export async function inputById(page: Page, id: string, value: string) {
+  await safeFill(page, `#${id}`, value);
+}
+
+export async function inputByName(page: Page, name: string, value: string) {
+  await safeFill(page, `input[name="${name}"]`, value);
+}
+
+//UPLOAD FILE FUNCTION
+export async function uploadFile(page: Page, label: string, filePath: string) {
+  const [fileChooser] = await Promise.all([
+    page.waitForEvent('filechooser'),
+    page.click(`label:has-text("${label}")`), // Triggers the file chooser
+  ]);
+  await fileChooser.setFiles(filePath);
+}
+
+export async function uploadBanner(page: Page,filePath: string) {
+  await page.setInputFiles(
+    '#beranda-banner-file-input',
+    path.resolve(filePath)
+  );
+}
+
+
+
+
+
+
 
 export async function selectOption(page: Page, label: string, option: string) {
   await page.click(`#${label}`);

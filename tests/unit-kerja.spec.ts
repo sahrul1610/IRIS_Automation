@@ -12,7 +12,7 @@ test.describe("Unit Kerja", () => {
 
 
   test("TC001 - Search", async ({ page }) => {
-    await UI.input(page, "Masukkan kata kunci pencarian", "Solo");
+    await UI.inputByPlaceholder(page, "Masukkan kata kunci pencarian", "Solo");
     await UI.button(page, "Cari");
     await UI.waitForTimeout(page, 2000);
     await UI.expectTable(page, "Solo");
@@ -21,11 +21,11 @@ test.describe("Unit Kerja", () => {
 
   test("TC002 - Tambah Unit", async ({ page }) => {
 
-    await UI.link(page, "Tambah Unit");
+    await UI.linkByName(page, "Tambah Unit");
 
-    await UI.input(page, "Kode Unit", random(4));
-    await UI.input(page, "Nama Unit", 'Auto ' + random(5));
-    await UI.input(page, "Alias Unit", 'AL ' + random(3)); 
+    await UI.inputByPlaceholder(page, "Kode Unit", random(4));
+    await UI.inputByPlaceholder(page, "Nama Unit", 'Auto ' + random(5));
+    await UI.inputByPlaceholder(page, "Alias Unit", 'AL ' + random(3)); 
     await UI.waitForTimeout(page, 2000);
     await UI.buttonByOnclick(page, "saveForm()");
     await UI.expectModal(page, '#swal2-title', 'Success!');

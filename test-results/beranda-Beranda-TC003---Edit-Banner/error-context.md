@@ -1,0 +1,195 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e5]:
+        - link [ref=e6] [cursor=pointer]:
+          - /url: https://admincargo-beta.kai.id
+        - text: 
+      - list [ref=e7]:
+        - listitem [ref=e8]:
+          - link " Dashboards" [ref=e9] [cursor=pointer]:
+            - /url: https://admincargo-beta.kai.id/dashboard
+            - generic [ref=e10]: 
+            - generic [ref=e11]: Dashboards
+        - listitem [ref=e12]: Management
+        - listitem [ref=e13]:
+          - link " Manajemen User" [ref=e14] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e15]: 
+            - generic [ref=e16]: Manajemen User
+        - listitem [ref=e17]:
+          - link " Master Data" [ref=e18] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e19]: 
+            - generic [ref=e20]: Master Data
+        - listitem [ref=e21]:
+          - link " Manajemen Konten" [ref=e22] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e23]: 
+            - generic [ref=e24]: Manajemen Konten
+          - list [ref=e25]:
+            - listitem [ref=e26]:
+              - link "Beranda" [ref=e27] [cursor=pointer]:
+                - /url: https://admincargo-beta.kai.id/manajemen-konten/beranda
+                - generic [ref=e28]: Beranda
+            - listitem [ref=e29]:
+              - link "Multi Operator Terminal" [ref=e30] [cursor=pointer]:
+                - /url: https://admincargo-beta.kai.id/manajemen-konten/multi-operator-terminal
+                - generic [ref=e31]: Multi Operator Terminal
+            - listitem [ref=e32]:
+              - link "Single Operator Terminal" [ref=e33] [cursor=pointer]:
+                - /url: https://admincargo-beta.kai.id/manajemen-konten/single-operator-terminal
+                - generic [ref=e34]: Single Operator Terminal
+            - listitem [ref=e35]:
+              - link "Terminal Berpotensi" [ref=e36] [cursor=pointer]:
+                - /url: https://admincargo-beta.kai.id/manajemen-konten/terminal-berpotensi
+                - generic [ref=e37]: Terminal Berpotensi
+            - listitem [ref=e38]:
+              - link "Tentang Kami" [ref=e39] [cursor=pointer]:
+                - /url: https://admincargo-beta.kai.id/manajemen-konten/tentang-kami
+                - generic [ref=e40]: Tentang Kami
+            - listitem [ref=e41]:
+              - link "Produk" [ref=e42] [cursor=pointer]:
+                - /url: https://admincargo-beta.kai.id/manajemen-konten/produk/l1
+                - generic [ref=e43]: Produk
+            - listitem [ref=e44]:
+              - link "Layanan" [ref=e45] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e46]: Layanan
+            - listitem [ref=e47]:
+              - link "Galeri" [ref=e48] [cursor=pointer]:
+                - /url: https://admincargo-beta.kai.id/manajemen-konten/galeri
+                - generic [ref=e49]: Galeri
+            - listitem [ref=e50]:
+              - link "FAQ" [ref=e51] [cursor=pointer]:
+                - /url: https://admincargo-beta.kai.id/manajemen-konten/faq
+                - generic [ref=e52]: FAQ
+            - listitem [ref=e53]:
+              - link "Kontak Kami" [ref=e54] [cursor=pointer]:
+                - /url: https://admincargo-beta.kai.id/manajemen-konten/kontak-kami-banner
+                - generic [ref=e55]: Kontak Kami
+            - listitem [ref=e56]:
+              - link "Broadcast Berita" [ref=e57] [cursor=pointer]:
+                - /url: https://admincargo-beta.kai.id/manajemen-konten/broadcast-berita
+                - generic [ref=e58]: Broadcast Berita
+            - listitem [ref=e59]:
+              - link "Footer" [ref=e60] [cursor=pointer]:
+                - /url: https://admincargo-beta.kai.id/master-data/footer
+                - generic [ref=e61]: Footer
+    - generic [ref=e62]:
+      - navigation [ref=e63]:
+        - text: 
+        - generic [ref=e64]:
+          - navigation "breadcrumb" [ref=e66]:
+            - list [ref=e67]:
+              - listitem [ref=e68]: Manajemen Konten
+              - listitem [ref=e69]: / Beranda
+          - list [ref=e70]:
+            - listitem [ref=e71]:
+              - link [ref=e72] [cursor=pointer]:
+                - /url: javascript:void(0);
+              - text:  
+      - generic [ref=e74]:
+        - generic [ref=e77]:
+          - generic [ref=e79]:
+            - heading "Beranda" [level=5] [ref=e81]
+            - link "Tambah Banner " [ref=e83] [cursor=pointer]:
+              - /url: ""
+              - text: Tambah Banner
+              - generic [ref=e84]: 
+          - generic [ref=e85]:
+            - generic [ref=e86]:
+              - textbox "Masukkan kata kunci pencarian" [ref=e88]: Happy
+              - button "Cari " [active] [ref=e90] [cursor=pointer]:
+                - text: Cari
+                - generic [ref=e91]: 
+            - generic [ref=e93]:
+              - generic [ref=e95]:
+                - text: Show
+                - combobox "Show entries" [ref=e96]:
+                  - option "5"
+                  - option "10" [selected]
+                  - option "25"
+                  - option "50"
+                  - option "100"
+                - text: entries
+              - generic [ref=e97]:
+                - table "table-logo" [ref=e100]:
+                  - rowgroup [ref=e101]:
+                    - row "No Nama Banner Judul Sub Judul Tombol Interaksi Banner Status Aksi" [ref=e102]:
+                      - cell "No" [ref=e103]
+                      - cell "Nama Banner" [ref=e104]
+                      - cell "Judul" [ref=e105]
+                      - cell "Sub Judul" [ref=e106]
+                      - cell "Tombol Interaksi" [ref=e107]
+                      - cell "Banner" [ref=e108]
+                      - cell "Status" [ref=e109]
+                      - cell "Aksi" [ref=e110]
+                - table "table-logo" [ref=e112]:
+                  - rowgroup [ref=e113]:
+                    - row "No Nama Banner Judul Sub Judul Tombol Interaksi Banner Status Aksi" [ref=e114]:
+                      - cell "No" [ref=e115]:
+                        - generic: "No"
+                      - cell "Nama Banner" [ref=e116]:
+                        - generic: Nama Banner
+                      - cell "Judul" [ref=e117]:
+                        - generic: Judul
+                      - cell "Sub Judul" [ref=e118]:
+                        - generic: Sub Judul
+                      - cell "Tombol Interaksi" [ref=e119]:
+                        - generic: Tombol Interaksi
+                      - cell "Banner" [ref=e120]:
+                        - generic: Banner
+                      - cell "Status" [ref=e121]:
+                        - generic: Status
+                      - cell "Aksi" [ref=e122]:
+                        - generic: Aksi
+                  - rowgroup [ref=e123]:
+                    - row "1 Happy New Year 2026 Happy New Year Happy New Year - img-placeholder Active  " [ref=e124]:
+                      - cell "1" [ref=e125]
+                      - cell "Happy New Year 2026" [ref=e126]
+                      - cell "Happy New Year" [ref=e127]
+                      - cell "Happy New Year" [ref=e128]:
+                        - generic [ref=e129]: Happy New Year
+                      - cell "-" [ref=e130]
+                      - cell "img-placeholder" [ref=e131]:
+                        - img "img-placeholder" [ref=e132]
+                      - cell "Active" [ref=e133]
+                      - cell " " [ref=e134]:
+                        - button "" [ref=e135] [cursor=pointer]:
+                          - generic [ref=e136]: 
+                        - button "" [ref=e137] [cursor=pointer]:
+                          - generic [ref=e138]: 
+                    - row "2 Happy New Year Selamat Tahun Baru 2026 Selamat Tahun Baru 2026 Link img-placeholder Inactive  " [ref=e139]:
+                      - cell "2" [ref=e140]
+                      - cell "Happy New Year" [ref=e141]
+                      - cell "Selamat Tahun Baru 2026" [ref=e142]
+                      - cell "Selamat Tahun Baru 2026" [ref=e143]:
+                        - generic [ref=e144]: Selamat Tahun Baru 2026
+                      - cell "Link" [ref=e145]:
+                        - button "Link" [ref=e146] [cursor=pointer]
+                      - cell "img-placeholder" [ref=e147]:
+                        - img "img-placeholder" [ref=e148]
+                      - cell "Inactive" [ref=e149]
+                      - cell " " [ref=e150]:
+                        - button "" [ref=e151] [cursor=pointer]:
+                          - generic [ref=e152]: 
+                        - button "" [ref=e153] [cursor=pointer]:
+                          - generic [ref=e154]: 
+              - status [ref=e157]: Showing 1 to 2 of 2 entries
+              - list [ref=e159]:
+                - listitem [ref=e160]:
+                  - link "Sebelumnya" [disabled]
+                - listitem [ref=e161]:
+                  - link "1" [ref=e162] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e163]:
+                  - link "Selanjutnya" [disabled]
+        - text:  
+        - contentinfo [ref=e164]:
+          - generic [ref=e166]: © 2023-2026, CMS Cargo by KAI
+  - img
+```

@@ -8,7 +8,7 @@ test.describe("Area", () => {
     });
 
     test("TC001 - Search", async ({ page }) => {
-        await UI.input(page, "Masukkan kata kunci pencarian", "Pidada");
+        await UI.inputByName(page, "Masukkan kata kunci pencarian", "Pidada");
         await UI.button(page, "Cari");
         await UI.waitForTimeout(page, 1000);
         await UI.expectTable(page, "Pidada");
@@ -16,11 +16,11 @@ test.describe("Area", () => {
 
     test("TC002 - Tambah Unit", async ({ page }) => {
 
-        await UI.link(page, "Tambah Area");
+        await UI.linkByName(page, "Tambah Area");
 
         const random = Date.now();
 
-        await UI.input(page, "Nama Terminal", 'KD3' + random + '1');
+        await UI.inputByPlaceholder(page, "Nama Terminal", 'KD3' + random + '1');
         await UI.selectOption(page, "select2-id_unit-container", "KANTOR PUSAT");
         await UI.selectOption(page, "select2-id_provinsi-container", "BANDAR LAMPUNG");
 
