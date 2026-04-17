@@ -1,4 +1,4 @@
-import { Page, expect } from "@playwright/test";
+import { Page, expect, request } from "@playwright/test";
 // import { createWorker } from 'tesseract.js';
 
 
@@ -33,5 +33,21 @@ export async function loginSuccess(page: Page) {
   await page.click('button[type="submit"]'); // sesuaikan
   await expect(page).not.toHaveURL(/\/login/);
   await page.waitForTimeout(1000);
+
+
+  // const apiContext = await request.newContext();
+  // const response = await apiContext.post("https://admincargo-beta.kai.id/login", {
+  //   data: {
+  //     username: "superadmin",
+  //     password: "[PASSWORD]",
+  //   },
+  // });
+
+  // const response = await apiContext.get(process.env.BASE_URL_LOGIN + process.env.USERNAME);
+  // const body = await response.json();
+  // console.log("Login Response : " + body.data.accessToken);
+  // const token = body.data.accessToken;
+
+  // await apiContext.storageState({ path: 'storageState.json' });
 
 }
