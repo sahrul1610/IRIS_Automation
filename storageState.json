@@ -1,21 +1,31 @@
 {
   "cookies": [
     {
-      "name": "XSRF-TOKEN",
-      "value": "eyJpdiI6IjF5L1lxTERqaEJxNmNxenVvVys1S1E9PSIsInZhbHVlIjoicWZLdU5JT2I5YmpDZFhxUmJobzVRdjZtRkpKL1podHRwdGNqYlFWNi9iSUJDY2E4TzYvS0RmT0lrR1FoRXhvcTh4L2lERUVCd0dNY2lYQ2lHZXlmQjczeVhsNDVFRTQ2R3hCMTRKcXY3QlF2Znp0Vm9IQ1pFMVlTOWlUdlRPNmMiLCJtYWMiOiJhOThmNzUwYWFjNjljZGY4NTgzOWQ5NWIxMmM4YTQwOTMwOWRkNGE3ODc0NGZhM2YxODQzMTE2YjlhNjQ2NTM4IiwidGFnIjoiIn0%3D",
-      "domain": "admincargo-beta.kai.id",
+      "name": "remember_web_59ba36addc2b2f9401580f014c7f58ea4e30989d",
+      "value": "eyJpdiI6IjJHM0k5R3BDSWhxek5FaHRzN1ZwMWc9PSIsInZhbHVlIjoiT0hFQkhFMGVJMzFESk5GNTFpaWc5akxUSVBCTHJVRi9HbW5SWTZsRG4wK25uR3NTQTh4ajdjNnJ6ZW9RQmY1N2NYRlhjMWJ4bmtEcHcvMGxpeS82OHQreUMyMGdza3FJRjdpYW5NZVE2S1REVHczZWR1NmxaWDJod0FNT1RkNllVbGhOUEwzOVRuMU95VWh3dDJ2cEVRPT0iLCJtYWMiOiJiMTAxN2QwZmU1YWNlNjNjM2FkNjZiMzJiMzg4ZTY2MmJjMjc4MDIwOTZkMWE5ZTYyNTQ5YzgzMzRiZmEzOTc0IiwidGFnIjoiIn0%3D",
+      "domain": "iris-beta.kai.id",
       "path": "/",
-      "expires": 1770623129.513198,
+      "expires": 1814000300.522304,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "XSRF-TOKEN",
+      "value": "eyJpdiI6ImNFY1RGZTRjTHJMdzJKdEJXbTFjL1E9PSIsInZhbHVlIjoiUWRGNVdsYnpsTk5VVmJKam96VFZCek84Zk1iaDRPTnBwNFNnVXhiQkVTRW5FSlBVMk5RaG5Mb3BNQUFWdzN2dkt2SnNsa0N2T2ZoRTFGdlN4UkVMYXArd25BR1VGNlhBczA1RjQ1Y3ltWTgzUWNOeE5sT0piQUVEcTFoeEpFeVMiLCJtYWMiOiI1ZmFkYzc3OWZkYWRhY2M4ZGExNjExNWMwODUwODUyMTI4YmUwNmVkMTdhZGYxZDNlYjdlMDMwMTkwODhhYWZhIiwidGFnIjoiIn0%3D",
+      "domain": "iris-beta.kai.id",
+      "path": "/",
+      "expires": 1779447501.159295,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
-      "name": "cms_cargo_session",
-      "value": "eyJpdiI6InpnaU1HMEQzaGZqZ3VZMXB4UFE5M0E9PSIsInZhbHVlIjoiZXlqeXBzRmQ1SmVZWVZpbTdDR29GbUNNV2htQUpCbFd3cTJ2cTlSREFRdkE1RFpFS1JnSEY1Z3lCYjdKak5YeFRtMUl6blhNVEVTbTZETU4wK2h1Zkp6N3JlY0lweTl0WDlDZmdVbWlQS29XMk52Z0tQVHFLOHYrL3VNU0U4VisiLCJtYWMiOiJiN2Y2NGNjMDg4MjlkYTUxYjNlMTU4MjE1ODQ4ZWUyNTAyMWIxMmFmYjMyZGVlYzNlZTliMGMwN2Q5ZWYyMTQ4IiwidGFnIjoiIn0%3D",
-      "domain": "admincargo-beta.kai.id",
+      "name": "iris_session",
+      "value": "eyJpdiI6IndaeE9BdnNLbVJhMytib2pNMC9XWFE9PSIsInZhbHVlIjoiOGNIUXczb0tPWUEvK2VMZnBDR0pOSU56VUxTYUI3WU5qdWE4dS9jbk41ZVErMS9jYUtNZklPRlE3VVhzZ3ZaMzdrempVNDFxZlVTejBCZllWTDdHV2NydWZFVzNRaDNLQ3RvQW9leGhLdUMxaU1ub0dyeDd5YzhsVnRxOElJTDciLCJtYWMiOiIxNDQ1YTEyZWNlZTEyZTgxZTcxMjA4MDdhMTE2YTUxNTIzMjQ2M2M3MzMzYTE4YzI5NWEwZWZiYzhmZTA4OWI5IiwidGFnIjoiIn0%3D",
+      "domain": "iris-beta.kai.id",
       "path": "/",
-      "expires": 1770623129.513239,
+      "expires": 1779447501.159591,
       "httpOnly": true,
       "secure": false,
       "sameSite": "Lax"

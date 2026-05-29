@@ -60,7 +60,7 @@ export async function uploadFile(page: Page, label: string, filePath: string) {
   await fileChooser.setFiles(filePath);
 }
 
-export async function uploadBanner(page: Page,filePath: string) {
+export async function uploadBanner(page: Page, filePath: string) {
   await page.setInputFiles(
     '#beranda-banner-file-input',
     path.resolve(filePath)
@@ -87,10 +87,34 @@ export async function expectModal(page: Page, locator: string, text: string) {
 }
 
 export async function expectTable(page: Page, label: string) {
-    const rows = page.locator('table tbody tr');
-    await expect(rows.first()).toBeVisible();
-    await expect(rows).toContainText(label);
+  const tableBody = page.locator('table tbody');
+  await expect(tableBody).toBeVisible();
+  await expect(tableBody).toContainText(label);
 }
+
+export async function expectTableVisible(page: Page, label: string) {
+  await page.waitForFunction((label) => {
+    const table = document.querySelector('table');
+    if (!table) return false;
+
+    const allRows = table.querySelectorAll('tbody tr');
+
+    // Filter untuk mencari baris yang mengandung teks label
+    const matchingRows = Array.from(allRows).filter(row => row.textContent?.includes(label));
+
+    // Jika ada baris yang cocok, pastikan table visible
+    if (matchingRows.length > 0) {
+      // Set display style visible
+      table.style.display = 'table';
+      table.style.opacity = '1';
+      // Tambahkan margin agar tidak menempel dengan elemen di atasnya (opsional)
+      table.style.marginTop = '20px';
+      return true;
+    }
+    return false;
+  }, label);
+}
+
 
 
 

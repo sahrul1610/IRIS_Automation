@@ -1,0 +1,54 @@
+<button class="btn btn-primary-light text-white" id="logout" type="button">
+<button id="cancelLogout" style="background:#e0e0e0;border:none;padding:10px 20px;border-radius:6px;cursor:pointer;min-width:90px;">
+<button id="confirmLogout" style="background:#4466f2;color:#fff;border:none;padding:10px 20px;border-radius:6px;cursor:pointer;min-width:90px;">
+<button class="mqtt-toast-close" onclick="event.stopPropagation();this.closest('.mqtt-toast').remove()">
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup">
+<select class="form-control btn-square" id="lokasi" name="lokasi">
+<input type="text" id="l_name" class="form-control mb-3">
+<select class="form-control btn-square" id="gps_group" name="gps_group">
+<input type="text" id="apn" class="form-control mb-3">
+<button class="btn" data-bs-dismiss="modal">
+<button id="downloadBtn" class="btn btn-success">
+<button style="width:inherit" id="refresh-data" class="btn btn-outline-primary">
+<button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#timeModal">
+<button onclick="window.location='/locotrack/locomotives/add'" class="btn btn-primary btn-block">
+<select class="form-control btn-square" id="filterLokasi" name="filterLokasi">
+<input class="form-control" type="text" id="customSearchInput" placeholder="">
+<select name="table-id_length" aria-controls="table-id" class="">
+<button onclick="window.location='/locotrack/locomotives/update/eyJpdiI6IlNNSmk3VlFXUGZxYUo5NUp4VURYVnc9PSIsInZhbHVlIjoiNEtldDlwVFdxYUdKOGdLdWVVUk9hQT09IiwibWFjIjoiNjUwM2JhMTFhODAwZjliODhiNjFhMzJhYmFmMjUxODdkZjMzY2YzNDdlMjkwMWQ3OWExNjk1YzFjYjZlNjJkNSIsInRhZyI6IiJ9'" class="btn btn-outline-primary edit-btn-custom" type="button">
+<button onclick="confirmDelete('eyJpdiI6IlNNSmk3VlFXUGZxYUo5NUp4VURYVnc9PSIsInZhbHVlIjoiNEtldDlwVFdxYUdKOGdLdWVVUk9hQT09IiwibWFjIjoiNjUwM2JhMTFhODAwZjliODhiNjFhMzJhYmFmMjUxODdkZjMzY2YzNDdlMjkwMWQ3OWExNjk1YzFjYjZlNjJkNSIsInRhZyI6IiJ9')" class="btn btn-outline-danger edit-btn-custom">
+<button onclick="window.location='/locotrack/locomotives/update/eyJpdiI6Ik1FTmRkY0pKMFROdHgzVFgrSGJwTHc9PSIsInZhbHVlIjoiVzlkc0FuWEd2ZnEvSGlPdTc4ZTZlZz09IiwibWFjIjoiNWJkZTdjMmNlYTg1OGY4ZTRkN2NmZTM0MmZmODEyNDc2MDRlNWY1NGY2MTFkYjY2MWJmY2MyZDhmYjk0ZWIwNiIsInRhZyI6IiJ9'" class="btn btn-outline-primary edit-btn-custom" type="button">
+<button onclick="confirmDelete('eyJpdiI6Ik1FTmRkY0pKMFROdHgzVFgrSGJwTHc9PSIsInZhbHVlIjoiVzlkc0FuWEd2ZnEvSGlPdTc4ZTZlZz09IiwibWFjIjoiNWJkZTdjMmNlYTg1OGY4ZTRkN2NmZTM0MmZmODEyNDc2MDRlNWY1NGY2MTFkYjY2MWJmY2MyZDhmYjk0ZWIwNiIsInRhZyI6IiJ9')" class="btn btn-outline-danger edit-btn-custom">
+<button onclick="window.location='/locotrack/locomotives/update/eyJpdiI6IjlzMVZYeld1Q2xKbWxQWmRUUXhHTlE9PSIsInZhbHVlIjoib0NpL0NxUEsrN3NpaVdaZnQ1K3YyZz09IiwibWFjIjoiYTFmNzQ0NGZhNzIxMzZmMmMyNDBjMTM4MzBjNjYzMThhOWFhYWZlYTY3NWVkMTEyZjFhYTIzZjQ5YzU4ZjJjOSIsInRhZyI6IiJ9'" class="btn btn-outline-primary edit-btn-custom" type="button">
+<button onclick="confirmDelete('eyJpdiI6IjlzMVZYeld1Q2xKbWxQWmRUUXhHTlE9PSIsInZhbHVlIjoib0NpL0NxUEsrN3NpaVdaZnQ1K3YyZz09IiwibWFjIjoiYTFmNzQ0NGZhNzIxMzZmMmMyNDBjMTM4MzBjNjYzMThhOWFhYWZlYTY3NWVkMTEyZjFhYTIzZjQ5YzU4ZjJjOSIsInRhZyI6IiJ9')" class="btn btn-outline-danger edit-btn-custom">
+<button onclick="window.location='/locotrack/locomotives/update/eyJpdiI6InUxc2ttUWViTTgrYmxrT0R0cW9QMlE9PSIsInZhbHVlIjoiM2tla2lobW1FRGp5dmhKOWVuZTRndz09IiwibWFjIjoiMTU1Nzg5ZDVkMGY2OTY0ODA4YmY3Yzk1MTRiNjIwMmJjYTcwODAyODc4MGE2YzdjMTE0MWI1NjU5YjAxNjc0NSIsInRhZyI6IiJ9'" class="btn btn-outline-primary edit-btn-custom" type="button">
+<button onclick="confirmDelete('eyJpdiI6InUxc2ttUWViTTgrYmxrT0R0cW9QMlE9PSIsInZhbHVlIjoiM2tla2lobW1FRGp5dmhKOWVuZTRndz09IiwibWFjIjoiMTU1Nzg5ZDVkMGY2OTY0ODA4YmY3Yzk1MTRiNjIwMmJjYTcwODAyODc4MGE2YzdjMTE0MWI1NjU5YjAxNjc0NSIsInRhZyI6IiJ9')" class="btn btn-outline-danger edit-btn-custom">
+<button onclick="window.location='/locotrack/locomotives/update/eyJpdiI6IkZIRHJZRnhOQlRHYkdwbGVtWWxsb3c9PSIsInZhbHVlIjoiZVNJOWdKL2ZLZVo5a3cyMFNXWks3Zz09IiwibWFjIjoiNDBkZGE4NzM0OWU0M2VkNjU4MzRkN2FiM2Q0NzlmMzU0NGI0MTA2NDFhMjljOThlMzljZWVmM2MzY2E3ZWU5NiIsInRhZyI6IiJ9'" class="btn btn-outline-primary edit-btn-custom" type="button">
+<button onclick="confirmDelete('eyJpdiI6IkZIRHJZRnhOQlRHYkdwbGVtWWxsb3c9PSIsInZhbHVlIjoiZVNJOWdKL2ZLZVo5a3cyMFNXWks3Zz09IiwibWFjIjoiNDBkZGE4NzM0OWU0M2VkNjU4MzRkN2FiM2Q0NzlmMzU0NGI0MTA2NDFhMjljOThlMzljZWVmM2MzY2E3ZWU5NiIsInRhZyI6IiJ9')" class="btn btn-outline-danger edit-btn-custom">
+<button onclick="window.location='/locotrack/locomotives/update/eyJpdiI6IlprMDNxTkwvTWF4RHB0bWdIbU9Vd3c9PSIsInZhbHVlIjoiU1BhWjhWRG1GTldneGNXaFF6QXhjUT09IiwibWFjIjoiY2RhODBiYmU1MWY4ZmJlMzMxNDk1NmIyNGQ1NTlhOTkyOGJjYWFiY2IyOTcwZDVmNmUwNjNlZmI2NTcwNzAzZiIsInRhZyI6IiJ9'" class="btn btn-outline-primary edit-btn-custom" type="button">
+<button onclick="confirmDelete('eyJpdiI6IlprMDNxTkwvTWF4RHB0bWdIbU9Vd3c9PSIsInZhbHVlIjoiU1BhWjhWRG1GTldneGNXaFF6QXhjUT09IiwibWFjIjoiY2RhODBiYmU1MWY4ZmJlMzMxNDk1NmIyNGQ1NTlhOTkyOGJjYWFiY2IyOTcwZDVmNmUwNjNlZmI2NTcwNzAzZiIsInRhZyI6IiJ9')" class="btn btn-outline-danger edit-btn-custom">
+<button onclick="window.location='/locotrack/locomotives/update/eyJpdiI6IlFrcTlGZDZPUEVFSGdFVUdOQ0VTTFE9PSIsInZhbHVlIjoiTnN4NUQ0eGpYd1JIaG5qNmw4cVpjQT09IiwibWFjIjoiZjRjZDA0NDBiMDg3ZWFmYTdhNTMwZDU4NzdkMmY1MDQ1MDRlZmVjMDc2NTIyZjRlYmVlMmE2YjIyZGZiNTI1MSIsInRhZyI6IiJ9'" class="btn btn-outline-primary edit-btn-custom" type="button">
+<button onclick="confirmDelete('eyJpdiI6IlFrcTlGZDZPUEVFSGdFVUdOQ0VTTFE9PSIsInZhbHVlIjoiTnN4NUQ0eGpYd1JIaG5qNmw4cVpjQT09IiwibWFjIjoiZjRjZDA0NDBiMDg3ZWFmYTdhNTMwZDU4NzdkMmY1MDQ1MDRlZmVjMDc2NTIyZjRlYmVlMmE2YjIyZGZiNTI1MSIsInRhZyI6IiJ9')" class="btn btn-outline-danger edit-btn-custom">
+<button onclick="window.location='/locotrack/locomotives/update/eyJpdiI6IlorZXpNbWRwNjA1SlcvV1dneHNEVGc9PSIsInZhbHVlIjoidjF5cHIwQUpjUnpKSktaRmFPSld3QT09IiwibWFjIjoiYjViYzRhYzRhMWNkYWU3NGRkODY3NGExMjg1ZThiMzk4NTllNTczMDdiZjVkNjM1MDFhYjE0NDU5YTg4OTVkNyIsInRhZyI6IiJ9'" class="btn btn-outline-primary edit-btn-custom" type="button">
+<button onclick="confirmDelete('eyJpdiI6IlorZXpNbWRwNjA1SlcvV1dneHNEVGc9PSIsInZhbHVlIjoidjF5cHIwQUpjUnpKSktaRmFPSld3QT09IiwibWFjIjoiYjViYzRhYzRhMWNkYWU3NGRkODY3NGExMjg1ZThiMzk4NTllNTczMDdiZjVkNjM1MDFhYjE0NDU5YTg4OTVkNyIsInRhZyI6IiJ9')" class="btn btn-outline-danger edit-btn-custom">
+<button onclick="window.location='/locotrack/locomotives/update/eyJpdiI6IldTVWFDYnBHMFZpbkYzKzB0WWlob0E9PSIsInZhbHVlIjoiQnYwMkdJNlBMbnB0MkJtdEFjb05iZz09IiwibWFjIjoiNjUzZjYwMmVjZjNjYWQ0ZDA0ZmVhNGFiNWMzYWIzZWQ5ODc0YjdiNjRiMzQwODJkMzhlMzBkODYxNjIyMTIzZiIsInRhZyI6IiJ9'" class="btn btn-outline-primary edit-btn-custom" type="button">
+<button onclick="confirmDelete('eyJpdiI6IldTVWFDYnBHMFZpbkYzKzB0WWlob0E9PSIsInZhbHVlIjoiQnYwMkdJNlBMbnB0MkJtdEFjb05iZz09IiwibWFjIjoiNjUzZjYwMmVjZjNjYWQ0ZDA0ZmVhNGFiNWMzYWIzZWQ5ODc0YjdiNjRiMzQwODJkMzhlMzBkODYxNjIyMTIzZiIsInRhZyI6IiJ9')" class="btn btn-outline-danger edit-btn-custom">
+<button onclick="window.location='/locotrack/locomotives/update/eyJpdiI6ImdNYmUrdGowUVNDei8vVjQxWkRTUUE9PSIsInZhbHVlIjoidU1lbm8xTGxPenF5Y1ZnQlFLUVZydz09IiwibWFjIjoiNGVjNjcxYjk0MTQxYzM1OTRiMTMxM2Q2MWEyMzVlZTVlOTJmM2I3ZDI0MDcxMzRkNDE3ODIxM2EyNWVjNmE3MyIsInRhZyI6IiJ9'" class="btn btn-outline-primary edit-btn-custom" type="button">
+<button onclick="confirmDelete('eyJpdiI6ImdNYmUrdGowUVNDei8vVjQxWkRTUUE9PSIsInZhbHVlIjoidU1lbm8xTGxPenF5Y1ZnQlFLUVZydz09IiwibWFjIjoiNGVjNjcxYjk0MTQxYzM1OTRiMTMxM2Q2MWEyMzVlZTVlOTJmM2I3ZDI0MDcxMzRkNDE3ODIxM2EyNWVjNmE3MyIsInRhZyI6IiJ9')" class="btn btn-outline-danger edit-btn-custom">
+<button
+                                        onclick="window.location='/locotrack/locomotives/update/${row.ENC_L_ID}'"
+                                        class="btn btn-outline-primary edit-btn-custom"
+                                        type="button"
+                                    >
+<button
+                                        onclick="confirmDelete('${row.ENC_L_ID}')"
+                                        class="btn btn-outline-danger edit-btn-custom"
+                                    >
+
+<label for="lokasi">Dipo Lok</label>
+<label for="l_name">No Sarana</label>
+<label for="gps_group">Gps Group</label>
+<label for="apn">APN</label>
+<label for="filterLokasi">Filter Dipo</label>
+<label class="form-label"> Search </label>
+<label>Show <select name="table-id_length" aria-controls="table-id" class=""><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label>

@@ -1,0 +1,701 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e7] [cursor=pointer]
+      - link [ref=e9] [cursor=pointer]:
+        - /url: https://iris-beta.kai.id/dashboard
+    - generic [ref=e10]:
+      - text: Jumat, 22 Mei 2026
+      - generic [ref=e11]: 14:26
+    - list [ref=e13]:
+      - listitem [ref=e14]:
+        - link [ref=e15] [cursor=pointer]:
+          - /url: "#!"
+          - img [ref=e16]
+      - listitem [ref=e18] [cursor=pointer]:
+        - img [ref=e20]
+      - listitem [ref=e23] [cursor=pointer]:
+        - button "Log out" [ref=e24]:
+          - img [ref=e25]
+          - text: Log out
+  - generic [ref=e28]:
+    - banner [ref=e29]:
+      - navigation [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - img "Profile" [ref=e34]
+            - link "64186 | HARKAT WIJAYA" [ref=e35] [cursor=pointer]:
+              - /url: "#"
+              - heading "64186 | HARKAT WIJAYA" [level=6] [ref=e36]
+            - generic [ref=e37]:
+              - generic [ref=e38]: Super Admin
+              - generic [ref=e39]: Admin Dashboard Railway Coal Command Center
+          - list [ref=e41]:
+            - text: 
+            - listitem [ref=e42]:
+              - link "Dashboard" [ref=e43] [cursor=pointer]:
+                - /url: https://iris-beta.kai.id/iris-dashboard
+                - img [ref=e44]
+                - text: Dashboard 
+            - listitem [ref=e47]:
+              - link "BOD" [ref=e48] [cursor=pointer]:
+                - /url: https://iris-beta.kai.id/dashboard/bod
+                - img [ref=e49]
+                - text: BOD 
+            - listitem [ref=e50]:
+              - link "Dashboard Executive" [ref=e51] [cursor=pointer]:
+                - /url: https://iris-beta.kai.id/dashboard/executive
+                - img [ref=e52]
+                - text: Dashboard Executive 
+            - listitem [ref=e53]:
+              - link "Dashboard Railway Coal Command Center" [ref=e54] [cursor=pointer]:
+                - /url: https://iris-beta.kai.id/dashboard/angkutan-barang
+                - img [ref=e55]
+                - text: Dashboard Railway Coal Command Center 
+            - listitem [ref=e56]:
+              - link "Dashboard Requirement" [ref=e57] [cursor=pointer]:
+                - /url: https://iris-beta.kai.id/dashboard/requirement
+                - img [ref=e58]
+                - text: Dashboard Requirement 
+            - listitem [ref=e61]:
+              - heading "Administrator" [level=6] [ref=e63]
+            - listitem [ref=e64]:
+              - link "User Management" [ref=e65] [cursor=pointer]:
+                - /url: https://iris-beta.kai.id/management-user
+                - img [ref=e66]
+                - text: User Management 
+            - listitem [ref=e71]:
+              - link "Role Setting" [ref=e72] [cursor=pointer]:
+                - /url: https://iris-beta.kai.id/role-setting
+                - img [ref=e73]
+                - text: Role Setting 
+            - listitem [ref=e76]:
+              - link "Menu Permission" [ref=e77] [cursor=pointer]:
+                - /url: https://iris-beta.kai.id/menu-permission
+                - img [ref=e78]
+                - text: Menu Permission 
+            - listitem [ref=e80]:
+              - link "Mobile Setting " [ref=e81] [cursor=pointer]:
+                - /url: javascript:void(0)
+                - img [ref=e82]
+                - text: Mobile Setting
+                - generic [ref=e85]: 
+            - listitem [ref=e86]:
+              - heading "IRIS Mobile" [level=6] [ref=e88]
+            - listitem [ref=e89]:
+              - link "Mobile APK" [ref=e90] [cursor=pointer]:
+                - /url: https://iris-beta.kai.id/mobile/mobile-apk
+                - img [ref=e91]
+                - text: Mobile APK 
+            - listitem [ref=e93]:
+              - heading "Genset" [level=6] [ref=e95]
+            - listitem [ref=e96]:
+              - link "Dashboard" [ref=e97] [cursor=pointer]:
+                - /url: https://iris-beta.kai.id/dashboard
+                - img [ref=e98]
+                - text: Dashboard 
+            - listitem [ref=e101]:
+              - link "Monitoring" [ref=e102] [cursor=pointer]:
+                - /url: https://iris-beta.kai.id/monitoring/genset
+                - img [ref=e103]
+                - text: Monitoring 
+            - listitem [ref=e105]:
+              - link "Master Genset " [ref=e106] [cursor=pointer]:
+                - /url: javascript:void(0)
+                - img [ref=e107]
+                - text: Master Genset
+                - generic [ref=e112]: 
+            - listitem [ref=e113]:
+              - link "Detail Genset " [ref=e114] [cursor=pointer]:
+                - /url: javascript:void(0)
+                - img [ref=e115]
+                - text: Detail Genset
+                - generic [ref=e119]: 
+            - listitem [ref=e120]:
+              - link "Alert " [ref=e121] [cursor=pointer]:
+                - /url: javascript:void(0)
+                - img [ref=e122]
+                - text: Alert
+                - generic [ref=e125]: 
+              - text:    
+            - listitem [ref=e126]:
+              - link "Report" [ref=e127] [cursor=pointer]:
+                - /url: https://iris-beta.kai.id/report
+                - img [ref=e128]
+                - text: Report 
+            - listitem [ref=e131]:
+              - heading "AI CCTV" [level=6] [ref=e133]
+            - listitem [ref=e134]:
+              - link "Master " [ref=e135] [cursor=pointer]:
+                - /url: javascript:void(0)
+                - img [ref=e136]
+                - text: Master
+                - generic [ref=e140]: 
+            - listitem [ref=e141]:
+              - link "Transaction " [ref=e142] [cursor=pointer]:
+                - /url: javascript:void(0)
+                - img [ref=e143]
+                - text: Transaction
+                - generic [ref=e147]: 
+            - listitem [ref=e148]:
+              - link "Log Data " [ref=e149] [cursor=pointer]:
+                - /url: javascript:void(0)
+                - img [ref=e150]
+                - text: Log Data
+                - generic [ref=e154]: 
+            - listitem [ref=e155]:
+              - link "Reporting " [ref=e156] [cursor=pointer]:
+                - /url: javascript:void(0)
+                - img [ref=e157]
+                - text: Reporting
+                - generic [ref=e161]: 
+            - listitem [ref=e162]:
+              - heading "SSD EWS" [level=6] [ref=e164]
+            - listitem [ref=e165]:
+              - link "Master " [ref=e166] [cursor=pointer]:
+                - /url: javascript:void(0)
+                - img [ref=e167]
+                - text: Master
+                - generic [ref=e171]: 
+            - listitem [ref=e172]:
+              - link "Detail " [ref=e173] [cursor=pointer]:
+                - /url: javascript:void(0)
+                - img [ref=e174]
+                - text: Detail
+                - generic [ref=e178]: 
+            - listitem [ref=e179]:
+              - link "Log Sirine" [ref=e180] [cursor=pointer]:
+                - /url: https://iris-beta.kai.id/ews/log-sirine
+                - img [ref=e181]
+                - text: Log Sirine 
+            - listitem [ref=e184]:
+              - heading "Flood Detection Sensor" [level=6] [ref=e186]
+            - listitem [ref=e187]:
+              - link "Device Master" [ref=e188] [cursor=pointer]:
+                - /url: https://iris-beta.kai.id/flood/device-master
+                - img [ref=e189]
+                - text: Device Master 
+            - listitem [ref=e191]:
+              - link "Log Data" [ref=e192] [cursor=pointer]:
+                - /url: https://iris-beta.kai.id/flood/log-data
+                - img [ref=e193]
+                - text: Log Data 
+            - listitem [ref=e194]:
+              - heading "Accelerometer" [level=6] [ref=e196]
+            - listitem [ref=e197]:
+              - link "Monitoring KPJ" [ref=e198] [cursor=pointer]:
+                - /url: https://iris-beta.kai.id/accelerometer/monitoring
+                - img [ref=e199]
+                - text: Monitoring KPJ 
+            - listitem [ref=e201]:
+              - link "Monitoring Anomaly" [ref=e202] [cursor=pointer]:
+                - /url: https://iris-beta.kai.id/accelerometer/monitoring-anomaly
+                - img [ref=e203]
+                - text: Monitoring Anomaly 
+            - listitem [ref=e205]:
+              - link "Master Device" [ref=e206] [cursor=pointer]:
+                - /url: https://iris-beta.kai.id/accelerometer/m-device-accelero
+                - img [ref=e207]
+                - text: Master Device 
+            - listitem [ref=e211]:
+              - heading "Locotrack" [level=6] [ref=e213]
+            - listitem [ref=e214]:
+              - link "Monitoring" [ref=e215] [cursor=pointer]:
+                - /url: https://iris-beta.kai.id/locotrack/monitoring
+                - img [ref=e216]
+                - text: Monitoring 
+            - listitem [ref=e218]:
+              - link "Track KA" [ref=e219] [cursor=pointer]:
+                - /url: https://iris-beta.kai.id/locotrack/track-ka
+                - img [ref=e220]
+                - text: Track KA 
+            - listitem [ref=e222]:
+              - link "Locomotives" [ref=e223] [cursor=pointer]:
+                - /url: https://iris-beta.kai.id/locotrack/locomotives
+                - img [ref=e224]
+                - text: Locomotives 
+            - listitem [ref=e226]:
+              - link "Gprs In" [ref=e227] [cursor=pointer]:
+                - /url: https://iris-beta.kai.id/locotrack/gprsin
+                - img [ref=e228]
+                - text: Gprs In 
+            - listitem [ref=e231]:
+              - link "Trainpos" [ref=e232] [cursor=pointer]:
+                - /url: https://iris-beta.kai.id/locotrack/trainpos
+                - img [ref=e233]
+                - text: Trainpos 
+            - listitem [ref=e236]:
+              - link "Waypoints" [ref=e237] [cursor=pointer]:
+                - /url: https://iris-beta.kai.id/locotrack/waypoints
+                - img [ref=e238]
+                - text: Waypoints 
+            - listitem [ref=e240]:
+              - link "Detail Waypoints" [ref=e241] [cursor=pointer]:
+                - /url: https://iris-beta.kai.id/locotrack/detail-wp
+                - img [ref=e242]
+                - text: Detail Waypoints 
+            - listitem [ref=e245]:
+              - link "User TMS" [ref=e246] [cursor=pointer]:
+                - /url: https://iris-beta.kai.id/locotrack/an-user
+                - img [ref=e247]
+                - text: User TMS 
+            - listitem [ref=e252]:
+              - heading "Smart Ring" [level=6] [ref=e254]
+            - listitem [ref=e255]:
+              - link "Monitoring" [ref=e256] [cursor=pointer]:
+                - /url: https://iris-beta.kai.id/smartring/dashboard
+                - img [ref=e257]
+                - text: Monitoring 
+            - listitem [ref=e260]:
+              - link "Threshold" [ref=e261] [cursor=pointer]:
+                - /url: https://iris-beta.kai.id/smartring/threshold
+                - img [ref=e262]
+                - text: Threshold 
+            - listitem [ref=e264]:
+              - link "Master " [ref=e265] [cursor=pointer]:
+                - /url: javascript:void(0)
+                - img [ref=e266]
+                - text: Master
+                - generic [ref=e271]: 
+            - listitem [ref=e272]:
+              - link "Log " [ref=e273] [cursor=pointer]:
+                - /url: javascript:void(0)
+                - img [ref=e274]
+                - text: Log
+                - generic [ref=e278]: 
+            - listitem [ref=e279]:
+              - heading "Sensor Jembatan" [level=6] [ref=e281]
+            - listitem [ref=e282]:
+              - link "Master " [ref=e283] [cursor=pointer]:
+                - /url: javascript:void(0)
+                - img [ref=e284]
+                - text: Master
+                - generic [ref=e289]: 
+            - listitem
+    - generic [ref=e290]:
+      - generic [ref=e294]:
+        - heading "Locomotives" [level=5] [ref=e296]
+        - list [ref=e297]:
+          - listitem [ref=e298]:
+            - link "Home" [ref=e299] [cursor=pointer]:
+              - /url: https://iris-beta.kai.id/dashboard
+      - generic [ref=e302]:
+        - alert [ref=e303]:
+          - text: Add data success.
+          - button "Close" [ref=e304] [cursor=pointer]
+        - generic [ref=e306]:
+          - generic [ref=e307]:
+            - generic [ref=e309]:
+              - button "" [ref=e311] [cursor=pointer]:
+                - generic [ref=e312]: 
+              - button " Export" [ref=e314] [cursor=pointer]:
+                - generic [ref=e315]: 
+                - text: Export
+            - button " New Data" [ref=e317] [cursor=pointer]:
+              - generic [ref=e318]: 
+              - text: New Data
+          - generic [ref=e319]:
+            - generic [ref=e320]:
+              - generic [ref=e321]: Filter Dipo
+              - combobox "Filter Dipo" [ref=e322]:
+                - option "All" [selected]
+                - option "Bandung"
+                - option "Cirebon"
+                - option "Cipinang"
+                - option "Jatinegara"
+                - option "Jember"
+                - option "Kertapati"
+                - option "Medan"
+                - option "Madiun"
+                - option "Padang"
+                - option "Purwokerto"
+                - option "Surabaya Pasarturi"
+                - option "Sidotopo"
+                - option "Solobalapan"
+                - option "Semarang Poncol"
+                - option "Tanahabang"
+                - option "Tarahan"
+                - option "Tanjungkarang"
+                - option "Yogyakarta"
+            - generic [ref=e323]:
+              - generic [ref=e324]: Search
+              - textbox [ref=e325]
+          - generic [ref=e327]:
+            - generic [ref=e329]:
+              - generic [ref=e330]:
+                - link [ref=e331] [cursor=pointer]:
+                  - /url: "#"
+                - text: Normal
+              - generic [ref=e332]: < 1 Menit
+            - generic [ref=e334]:
+              - generic [ref=e335]:
+                - link [ref=e336] [cursor=pointer]:
+                  - /url: "#"
+                - text: Warning
+              - generic [ref=e337]: "> 1 Menit - 10 Menit"
+            - generic [ref=e339]:
+              - generic [ref=e340]:
+                - link [ref=e341] [cursor=pointer]:
+                  - /url: "#"
+                - text: Critical
+              - generic [ref=e342]: "> 10 Menit - 1 Jam"
+            - generic [ref=e344]:
+              - generic [ref=e345]:
+                - link [ref=e346] [cursor=pointer]:
+                  - /url: "#"
+                - text: Over Critical
+              - generic [ref=e347]: "> 1 Jam"
+          - generic [ref=e349]:
+            - generic [ref=e351]:
+              - text: Show
+              - combobox "Show entries" [ref=e352]:
+                - option "10" [selected]
+                - option "25"
+                - option "50"
+                - option "100"
+              - text: entries
+            - grid [ref=e353]:
+              - rowgroup [ref=e354]:
+                - row "NO STATUS ID LOCOTRACK NO SARANA NO SARANA LAMA NO GSM WAKTU TERIMA LOKASI KERETA ODOMETER DEPO LONGITUDE LATITUDE KECEPATAN HEADING MESIN TASPAT TANGGAL KERETA APN KELOMPOK RECEIVED DATE ACTION" [ref=e355]:
+                  - gridcell "NO" [ref=e356]
+                  - gridcell "STATUS" [ref=e357]
+                  - gridcell "ID LOCOTRACK" [ref=e358]
+                  - gridcell "NO SARANA" [ref=e359]
+                  - gridcell "NO SARANA LAMA" [ref=e360]
+                  - gridcell "NO GSM" [ref=e361]
+                  - gridcell "WAKTU TERIMA" [ref=e362]
+                  - gridcell "LOKASI" [ref=e363]
+                  - gridcell "KERETA" [ref=e364]
+                  - gridcell "ODOMETER" [ref=e365]
+                  - gridcell "DEPO" [ref=e366]
+                  - gridcell "LONGITUDE" [ref=e367]
+                  - gridcell "LATITUDE" [ref=e368]
+                  - gridcell "KECEPATAN" [ref=e369]
+                  - gridcell "HEADING" [ref=e370]
+                  - gridcell "MESIN" [ref=e371]
+                  - gridcell "TASPAT" [ref=e372]
+                  - gridcell "TANGGAL KERETA" [ref=e373]
+                  - gridcell "APN" [ref=e374]
+                  - gridcell "KELOMPOK" [ref=e375]
+                  - gridcell "RECEIVED DATE" [ref=e376]
+                  - gridcell "ACTION" [ref=e377]
+              - rowgroup [ref=e378]:
+                - row "1 Over Critical S474 - 0891234567891 2099-10-30 11:28:20 BIK-DAN(ANTARA KM 251.0 DAN KM 252.0) 4019 52904952.75 104.40833 -4.108782 28.81 204 ON 0 2025-10-23 11:28:21  " [ref=e379]:
+                  - gridcell "1" [ref=e380]
+                  - gridcell "Over Critical" [ref=e381]:
+                    - generic [ref=e382]: Over Critical
+                  - gridcell "S474" [ref=e383]
+                  - gridcell "-" [ref=e384]
+                  - gridcell [ref=e385]
+                  - gridcell "0891234567891" [ref=e386]
+                  - gridcell "2099-10-30 11:28:20" [ref=e387]
+                  - gridcell "BIK-DAN(ANTARA KM 251.0 DAN KM 252.0)" [ref=e388]
+                  - gridcell "4019" [ref=e389]
+                  - gridcell "52904952.75" [ref=e390]
+                  - gridcell [ref=e391]
+                  - gridcell "104.40833" [ref=e392]
+                  - gridcell "-4.108782" [ref=e393]
+                  - gridcell "28.81" [ref=e394]
+                  - gridcell "204" [ref=e395]
+                  - gridcell "ON" [ref=e396]:
+                    - generic [ref=e397]: "ON"
+                  - gridcell "0" [ref=e398]
+                  - gridcell [ref=e399]
+                  - gridcell [ref=e400]
+                  - gridcell [ref=e401]
+                  - gridcell "2025-10-23 11:28:21" [ref=e402]
+                  - gridcell " " [ref=e403]:
+                    - generic [ref=e404]:
+                      - button "" [ref=e405] [cursor=pointer]:
+                        - generic [ref=e406]: 
+                      - button "" [ref=e407] [cursor=pointer]:
+                        - generic [ref=e408]: 
+                - row "2 Over Critical S124 2097-08-25 10:15:55 GLB-SDN(ANTARA KM 354.0 DAN KM 355.0) 3119 10177623.09 104.34745 -3.085598 203.22 232 ON 0 2025-09-28 10:15:56  " [ref=e409]:
+                  - gridcell "2" [ref=e410]
+                  - gridcell "Over Critical" [ref=e411]:
+                    - generic [ref=e412]: Over Critical
+                  - gridcell "S124" [ref=e413]
+                  - gridcell [ref=e414]
+                  - gridcell [ref=e415]
+                  - gridcell [ref=e416]
+                  - gridcell "2097-08-25 10:15:55" [ref=e417]
+                  - gridcell "GLB-SDN(ANTARA KM 354.0 DAN KM 355.0)" [ref=e418]
+                  - gridcell "3119" [ref=e419]
+                  - gridcell "10177623.09" [ref=e420]
+                  - gridcell [ref=e421]
+                  - gridcell "104.34745" [ref=e422]
+                  - gridcell "-3.085598" [ref=e423]
+                  - gridcell "203.22" [ref=e424]
+                  - gridcell "232" [ref=e425]
+                  - gridcell "ON" [ref=e426]:
+                    - generic [ref=e427]: "ON"
+                  - gridcell "0" [ref=e428]
+                  - gridcell [ref=e429]
+                  - gridcell [ref=e430]
+                  - gridcell [ref=e431]
+                  - gridcell "2025-09-28 10:15:56" [ref=e432]
+                  - gridcell " " [ref=e433]:
+                    - generic [ref=e434]:
+                      - button "" [ref=e435] [cursor=pointer]:
+                        - generic [ref=e436]: 
+                      - button "" [ref=e437] [cursor=pointer]:
+                        - generic [ref=e438]: 
+                - row "3 Over Critical H023 2095-12-01 06:50:22 GLB-SDN(ANTARA KM 361.0 DAN KM 362.0) 8616 746615.02 104.5081235 -3.2212167 52.04 78.1 OFF 0 2025-11-02 06:50:30  " [ref=e439]:
+                  - gridcell "3" [ref=e440]
+                  - gridcell "Over Critical" [ref=e441]:
+                    - generic [ref=e442]: Over Critical
+                  - gridcell "H023" [ref=e443]
+                  - gridcell [ref=e444]
+                  - gridcell [ref=e445]
+                  - gridcell [ref=e446]
+                  - gridcell "2095-12-01 06:50:22" [ref=e447]
+                  - gridcell "GLB-SDN(ANTARA KM 361.0 DAN KM 362.0)" [ref=e448]
+                  - gridcell "8616" [ref=e449]
+                  - gridcell "746615.02" [ref=e450]
+                  - gridcell [ref=e451]
+                  - gridcell "104.5081235" [ref=e452]
+                  - gridcell "-3.2212167" [ref=e453]
+                  - gridcell "52.04" [ref=e454]
+                  - gridcell "78.1" [ref=e455]
+                  - gridcell "OFF" [ref=e456]:
+                    - generic [ref=e457]: "OFF"
+                  - gridcell "0" [ref=e458]
+                  - gridcell [ref=e459]
+                  - gridcell [ref=e460]
+                  - gridcell [ref=e461]
+                  - gridcell "2025-11-02 06:50:30" [ref=e462]
+                  - gridcell " " [ref=e463]:
+                    - generic [ref=e464]:
+                      - button "" [ref=e465] [cursor=pointer]:
+                        - generic [ref=e466]: 
+                      - button "" [ref=e467] [cursor=pointer]:
+                        - generic [ref=e468]: 
+                - row "4 Over Critical H045 2095-12-01 03:43:38 NRU-TLP(ANTARA KM 345.0 DAN KM 346.0) 4135 1505789.65 104.0503457 -3.4513396 44.63 259 ON 0 2025-09-30 03:43:39  " [ref=e469]:
+                  - gridcell "4" [ref=e470]
+                  - gridcell "Over Critical" [ref=e471]:
+                    - generic [ref=e472]: Over Critical
+                  - gridcell "H045" [ref=e473]
+                  - gridcell [ref=e474]
+                  - gridcell [ref=e475]
+                  - gridcell [ref=e476]
+                  - gridcell "2095-12-01 03:43:38" [ref=e477]
+                  - gridcell "NRU-TLP(ANTARA KM 345.0 DAN KM 346.0)" [ref=e478]
+                  - gridcell "4135" [ref=e479]
+                  - gridcell "1505789.65" [ref=e480]
+                  - gridcell [ref=e481]
+                  - gridcell "104.0503457" [ref=e482]
+                  - gridcell "-3.4513396" [ref=e483]
+                  - gridcell "44.63" [ref=e484]
+                  - gridcell "259" [ref=e485]
+                  - gridcell "ON" [ref=e486]:
+                    - generic [ref=e487]: "ON"
+                  - gridcell "0" [ref=e488]
+                  - gridcell [ref=e489]
+                  - gridcell [ref=e490]
+                  - gridcell [ref=e491]
+                  - gridcell "2025-09-30 03:43:39" [ref=e492]
+                  - gridcell " " [ref=e493]:
+                    - generic [ref=e494]:
+                      - button "" [ref=e495] [cursor=pointer]:
+                        - generic [ref=e496]: 
+                      - button "" [ref=e497] [cursor=pointer]:
+                        - generic [ref=e498]: 
+                - row "5 Over Critical H012 2095-12-01 03:16:07 SIG-KAS(ANTARA KM 395.0 DAN KM 396.0) 3135 420244.7 104.7356728 -3.0562919 21.67 41 ON 0 2025-09-23 03:16:07  " [ref=e499]:
+                  - gridcell "5" [ref=e500]
+                  - gridcell "Over Critical" [ref=e501]:
+                    - generic [ref=e502]: Over Critical
+                  - gridcell "H012" [ref=e503]
+                  - gridcell [ref=e504]
+                  - gridcell [ref=e505]
+                  - gridcell [ref=e506]
+                  - gridcell "2095-12-01 03:16:07" [ref=e507]
+                  - gridcell "SIG-KAS(ANTARA KM 395.0 DAN KM 396.0)" [ref=e508]
+                  - gridcell "3135" [ref=e509]
+                  - gridcell "420244.7" [ref=e510]
+                  - gridcell [ref=e511]
+                  - gridcell "104.7356728" [ref=e512]
+                  - gridcell "-3.0562919" [ref=e513]
+                  - gridcell "21.67" [ref=e514]
+                  - gridcell "41" [ref=e515]
+                  - gridcell "ON" [ref=e516]:
+                    - generic [ref=e517]: "ON"
+                  - gridcell "0" [ref=e518]
+                  - gridcell [ref=e519]
+                  - gridcell [ref=e520]
+                  - gridcell [ref=e521]
+                  - gridcell "2025-09-23 03:16:07" [ref=e522]
+                  - gridcell " " [ref=e523]:
+                    - generic [ref=e524]:
+                      - button "" [ref=e525] [cursor=pointer]:
+                        - generic [ref=e526]: 
+                      - button "" [ref=e527] [cursor=pointer]:
+                        - generic [ref=e528]: 
+                - row "6 Over Critical H015 2095-12-01 02:53:03 DIPOLOK CN 153 1240131.55 108.55422 -6.7033188 0 126.6 OFF 0 2025-10-30 02:53:03  " [ref=e529]:
+                  - gridcell "6" [ref=e530]
+                  - gridcell "Over Critical" [ref=e531]:
+                    - generic [ref=e532]: Over Critical
+                  - gridcell "H015" [ref=e533]
+                  - gridcell [ref=e534]
+                  - gridcell [ref=e535]
+                  - gridcell [ref=e536]
+                  - gridcell "2095-12-01 02:53:03" [ref=e537]
+                  - gridcell "DIPOLOK CN" [ref=e538]
+                  - gridcell "153" [ref=e539]
+                  - gridcell "1240131.55" [ref=e540]
+                  - gridcell [ref=e541]
+                  - gridcell "108.55422" [ref=e542]
+                  - gridcell "-6.7033188" [ref=e543]
+                  - gridcell "0" [ref=e544]
+                  - gridcell "126.6" [ref=e545]
+                  - gridcell "OFF" [ref=e546]:
+                    - generic [ref=e547]: "OFF"
+                  - gridcell "0" [ref=e548]
+                  - gridcell [ref=e549]
+                  - gridcell [ref=e550]
+                  - gridcell [ref=e551]
+                  - gridcell "2025-10-30 02:53:03" [ref=e552]
+                  - gridcell " " [ref=e553]:
+                    - generic [ref=e554]:
+                      - button "" [ref=e555] [cursor=pointer]:
+                        - generic [ref=e556]: 
+                      - button "" [ref=e557] [cursor=pointer]:
+                        - generic [ref=e558]: 
+                - row "7 Over Critical H050 2095-11-30 22:31:34 KAG-BBA(ANTARA KM 85.0 DAN KM 86.0) 4033F 438008.71 104.9774926 -4.8678493 24.08 104.9 ON 0 2025-10-17 22:31:35  " [ref=e559]:
+                  - gridcell "7" [ref=e560]
+                  - gridcell "Over Critical" [ref=e561]:
+                    - generic [ref=e562]: Over Critical
+                  - gridcell "H050" [ref=e563]
+                  - gridcell [ref=e564]
+                  - gridcell [ref=e565]
+                  - gridcell [ref=e566]
+                  - gridcell "2095-11-30 22:31:34" [ref=e567]
+                  - gridcell "KAG-BBA(ANTARA KM 85.0 DAN KM 86.0)" [ref=e568]
+                  - gridcell "4033F" [ref=e569]
+                  - gridcell "438008.71" [ref=e570]
+                  - gridcell [ref=e571]
+                  - gridcell "104.9774926" [ref=e572]
+                  - gridcell "-4.8678493" [ref=e573]
+                  - gridcell "24.08" [ref=e574]
+                  - gridcell "104.9" [ref=e575]
+                  - gridcell "ON" [ref=e576]:
+                    - generic [ref=e577]: "ON"
+                  - gridcell "0" [ref=e578]
+                  - gridcell [ref=e579]
+                  - gridcell [ref=e580]
+                  - gridcell [ref=e581]
+                  - gridcell "2025-10-17 22:31:35" [ref=e582]
+                  - gridcell " " [ref=e583]:
+                    - generic [ref=e584]:
+                      - button "" [ref=e585] [cursor=pointer]:
+                        - generic [ref=e586]: 
+                      - button "" [ref=e587] [cursor=pointer]:
+                        - generic [ref=e588]: 
+                - row "8 Over Critical H052 2095-11-30 21:38:02 PTLS4_1-PTLS4_3(ANTARA KM 0.0 DAN KM 0.0) 4105 510697.49 103.8081056 -3.7187075 0.56 261.7 ON 0 2025-10-29 21:38:03  " [ref=e589]:
+                  - gridcell "8" [ref=e590]
+                  - gridcell "Over Critical" [ref=e591]:
+                    - generic [ref=e592]: Over Critical
+                  - gridcell "H052" [ref=e593]
+                  - gridcell [ref=e594]
+                  - gridcell [ref=e595]
+                  - gridcell [ref=e596]
+                  - gridcell "2095-11-30 21:38:02" [ref=e597]
+                  - gridcell "PTLS4_1-PTLS4_3(ANTARA KM 0.0 DAN KM 0.0)" [ref=e598]
+                  - gridcell "4105" [ref=e599]
+                  - gridcell "510697.49" [ref=e600]
+                  - gridcell [ref=e601]
+                  - gridcell "103.8081056" [ref=e602]
+                  - gridcell "-3.7187075" [ref=e603]
+                  - gridcell "0.56" [ref=e604]
+                  - gridcell "261.7" [ref=e605]
+                  - gridcell "ON" [ref=e606]:
+                    - generic [ref=e607]: "ON"
+                  - gridcell "0" [ref=e608]
+                  - gridcell [ref=e609]
+                  - gridcell [ref=e610]
+                  - gridcell [ref=e611]
+                  - gridcell "2025-10-29 21:38:03" [ref=e612]
+                  - gridcell " " [ref=e613]:
+                    - generic [ref=e614]:
+                      - button "" [ref=e615] [cursor=pointer]:
+                        - generic [ref=e616]: 
+                      - button "" [ref=e617] [cursor=pointer]:
+                        - generic [ref=e618]: 
+                - row "9 Over Critical H026 2095-11-30 17:21:47 PTLS3_1-PTLS3_3(ANTARA KM 0.0 DAN KM 0.0) 3117 142999.33 103.8130362 -3.7206139 0 244.4 IDLE 0 2025-10-22 17:23:43  " [ref=e619]:
+                  - gridcell "9" [ref=e620]
+                  - gridcell "Over Critical" [ref=e621]:
+                    - generic [ref=e622]: Over Critical
+                  - gridcell "H026" [ref=e623]
+                  - gridcell [ref=e624]
+                  - gridcell [ref=e625]
+                  - gridcell [ref=e626]
+                  - gridcell "2095-11-30 17:21:47" [ref=e627]
+                  - gridcell "PTLS3_1-PTLS3_3(ANTARA KM 0.0 DAN KM 0.0)" [ref=e628]
+                  - gridcell "3117" [ref=e629]
+                  - gridcell "142999.33" [ref=e630]
+                  - gridcell [ref=e631]
+                  - gridcell "103.8130362" [ref=e632]
+                  - gridcell "-3.7206139" [ref=e633]
+                  - gridcell "0" [ref=e634]
+                  - gridcell "244.4" [ref=e635]
+                  - gridcell "IDLE" [ref=e636]:
+                    - generic [ref=e637]: IDLE
+                  - gridcell "0" [ref=e638]
+                  - gridcell [ref=e639]
+                  - gridcell [ref=e640]
+                  - gridcell [ref=e641]
+                  - gridcell "2025-10-22 17:23:43" [ref=e642]
+                  - gridcell " " [ref=e643]:
+                    - generic [ref=e644]:
+                      - button "" [ref=e645] [cursor=pointer]:
+                        - generic [ref=e646]: 
+                      - button "" [ref=e647] [cursor=pointer]:
+                        - generic [ref=e648]: 
+                - row "10 Over Critical H039 2095-11-30 15:18:01 KPT(ANTARA KM 300.0 DAN KM 400.0) 3662 1423680.65 104.7475343 -3.0217114 0 223.3 IDLE 0 2025-09-18 15:18:02  " [ref=e649]:
+                  - gridcell "10" [ref=e650]
+                  - gridcell "Over Critical" [ref=e651]:
+                    - generic [ref=e652]: Over Critical
+                  - gridcell "H039" [ref=e653]
+                  - gridcell [ref=e654]
+                  - gridcell [ref=e655]
+                  - gridcell [ref=e656]
+                  - gridcell "2095-11-30 15:18:01" [ref=e657]
+                  - gridcell "KPT(ANTARA KM 300.0 DAN KM 400.0)" [ref=e658]
+                  - gridcell "3662" [ref=e659]
+                  - gridcell "1423680.65" [ref=e660]
+                  - gridcell [ref=e661]
+                  - gridcell "104.7475343" [ref=e662]
+                  - gridcell "-3.0217114" [ref=e663]
+                  - gridcell "0" [ref=e664]
+                  - gridcell "223.3" [ref=e665]
+                  - gridcell "IDLE" [ref=e666]:
+                    - generic [ref=e667]: IDLE
+                  - gridcell "0" [ref=e668]
+                  - gridcell [ref=e669]
+                  - gridcell [ref=e670]
+                  - gridcell [ref=e671]
+                  - gridcell "2025-09-18 15:18:02" [ref=e672]
+                  - gridcell " " [ref=e673]:
+                    - generic [ref=e674]:
+                      - button "" [ref=e675] [cursor=pointer]:
+                        - generic [ref=e676]: 
+                      - button "" [ref=e677] [cursor=pointer]:
+                        - generic [ref=e678]: 
+            - generic:
+              - status [ref=e679]: Showing 1 to 10 of 821 entries
+              - generic [ref=e680]:
+                - generic [ref=e681]: Previous
+                - generic [ref=e682]:
+                  - generic [ref=e683] [cursor=pointer]: "1"
+                  - generic [ref=e684] [cursor=pointer]: "2"
+                  - generic [ref=e685] [cursor=pointer]: "3"
+                  - generic [ref=e686] [cursor=pointer]: "4"
+                  - generic [ref=e687] [cursor=pointer]: "5"
+                  - text: …
+                  - generic [ref=e688] [cursor=pointer]: "83"
+                - generic [ref=e689] [cursor=pointer]: Next
+    - contentinfo [ref=e690]:
+      - paragraph [ref=e694]: Copyright 2026 © PT Kereta Api Indonesia (Persero)
+```

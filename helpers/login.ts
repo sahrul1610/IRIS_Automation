@@ -1,41 +1,40 @@
 import { Page, expect, request } from "@playwright/test";
-// import { createWorker } from 'tesseract.js';
+import { createWorker } from 'tesseract.js';
 
 
 export async function loginSuccess(page: Page) {
-  await page.goto("https://admincargo-beta.kai.id/login");
+  // await page.goto("https://admincargo-beta.kai.id/login");
 
-  await page.fill('input[name="username"]', "superadmin");
-  await page.fill('input[name="password"]', "Portalangbar2025!");
+  // await page.fill('input[name="username"]', "superadmin");
+  // await page.fill('input[name="password"]', "Portalangbar2025!");
 
-  //Test 1 Captcha handling
-  const captchaText = await page.locator('div[style*="text-align:center"] span').innerText();
-  console.log('Captcha Text: ', captchaText);
-  const result = eval(captchaText);
-  console.log('Captcha Result: ', result);
-  await page.fill('input[name="captcha"]', result.toString());
+  // //Test 1 Captcha handling
+  // const captchaText = await page.locator('div[style*="text-align:center"] span').innerText();
+  // console.log('Captcha Text: ', captchaText);
+  // const result = eval(captchaText);
+  // console.log('Captcha Result: ', result);
+  // await page.fill('input[name="captcha"]', result.toString());
+  await page.goto('https://iris-beta.kai.id/auth/login');
 
-  // Test 2 Static captcha handling
-  // tunggu elemen yang menampilkan kode verifikasi muncul
-  // const codeEl = await page.waitForSelector('span.badge.bg-primary >> strong');
-  // const codeText = (await codeEl.innerText()).trim(); // e.g. "THLDBK"
-  // isi input kode verifikasi (sesuaikan selector input)
-  // await page.fill('input[name="captcha"]', codeText);
+  // Fill in the login credentials
+  await page.locator('#nipp').fill('64186');
+  await page.locator('input[name="password"]').fill('#H4nyaS3mentar@saJa');
 
   // Test 3 Captcha handling with OCR
-  // const captcha = await page.locator('#captcha-img').screenshot();
-  // const worker = await createWorker('eng');
-  // const { data: { text } } = await worker.recognize(captcha);
-  // await page.fill('input[name="captcha"]',  text.trim());
+  const captcha = await page.locator('#captchaImage').screenshot();
+  const worker = await createWorker('eng');
+  const { data: { text } } = await worker.recognize(captcha);
+  await worker.terminate();
+  await page.fill('input[name="captcha"]', text.trim());
+
+  // Click the login button
+  await page.locator('button[type="submit"]').click();
+
+  // Verify successful navigation to the dashboard
+  await expect(page).toHaveURL(/.*dashboard/);
 
 
-  await page.waitForTimeout(500);
-  await page.click('button[type="submit"]'); // sesuaikan
-  await expect(page).not.toHaveURL(/\/login/);
-  await page.waitForTimeout(1000);
-
-
-  // const apiContext = await request.newContext();
+  const apiContext = await request.newContext();
   // const response = await apiContext.post("https://admincargo-beta.kai.id/login", {
   //   data: {
   //     username: "superadmin",
@@ -48,6 +47,6 @@ export async function loginSuccess(page: Page) {
   // console.log("Login Response : " + body.data.accessToken);
   // const token = body.data.accessToken;
 
-  // await apiContext.storageState({ path: 'storageState.json' });
+  await apiContext.storageState({ path: 'storageState.json' });
 
 }
